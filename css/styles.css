@@ -2,11 +2,11 @@
 
 body{
     margin: 0;
-    background-color: #ab88ff;
+    background-color: #8F57FD;
     font-family: 'Mulish', sans-serif;
 }
 .header{
-    background-color: #ab88ff;
+    background-color: #8F57FD;
     width: 100%;
     height: 80px;
     display: flex;
@@ -40,6 +40,9 @@ body{
 .header__menu:hover ul, ul:hover{
     display: block;
 }
+.header__menu li a:hover{
+    text-decoration: underline;
+}
 .header__menu--profile{
     margin-right: 8px;
     width: 100px;
@@ -52,4 +55,27 @@ body{
     display: grid;
     text-align: center;
     float: right;
+}
+/* --------------------aqui acaban los estilos del header------------ */
+.main{
+    height: 300px;
+}
+.main__title{
+    color: white;
+    font-size: 25px;
+}
+.main__input{
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    height: 50px;
+    padding: 0 20px;
+    width: 70%;
+}
+
+::placeholder{
+    color: white;
 }
