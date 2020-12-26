@@ -30,6 +30,7 @@ body {
   width: 200px;
   cursor: pointer;
   position: relative;
+  margin-left: 50px;
 }
 .carousel-item:hover ~ .carousel-item {
   transform: translate3d(100px, 0, 0);
